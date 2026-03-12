@@ -46,3 +46,23 @@ for (const sor of matrix) {
     console.log(sorOsszeg)
     matrixKiiras += "\n"
 }
+
+console.loge(sorOsszegek)
+for (const element of sorOsszegek) {
+    console.log(element)
+}
+
+let oszlopOsszegek = []
+for ( let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+        matrix[i][j]
+    }
+}
+
+let atloOsszeg1 = 0
+for (let i = 0; i < matrix.length; i++) {
+    foAtloOsszeg += matrix[i][i]
+}
+
+console.log("Átló")
+console.log(foAtloOsszeg)
